@@ -1,6 +1,8 @@
 _Image*
 _Interim*
 
+PD2Status/Nova
+
 **/.idea/*
 .idea/contentModel.xml
 bin
