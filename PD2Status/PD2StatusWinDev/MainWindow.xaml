@@ -10,7 +10,19 @@
     DataContext="{x:Static main:PD2SModel.instance}"
     Background="{x:Static SystemColors.ControlDarkDarkBrush}"
 >
-    <Grid>
-
-    </Grid>
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="TabHeaderStyle" BasedOn="{x:Type TextBlock}">
+            <Style.Setters>
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="FontWeight" Value="Bold" />
+            </Style.Setters>
+        </Style>
+    </Window.Resources>
+    <TabControl Background="Transparent">
+        <TabItem>
+            <TabItem.Header>
+                <TextBlock Style="{StaticResource TabHeaderStyle}" Text="Discord"></TextBlock>
+            </TabItem.Header>
+        </TabItem>
+    </TabControl>
 </Window>
