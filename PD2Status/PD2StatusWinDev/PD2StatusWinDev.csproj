@@ -8,6 +8,7 @@
         <Company>Fiard</Company>
         <Product>PD2Status</Product>
         <AssemblyVersion>0.1</AssemblyVersion>
+        <RootNamespace>PD2StatusWin</RootNamespace>
     </PropertyGroup>
 
 </Project>

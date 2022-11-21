@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PD2StatusWin", "PD2StatusWin\PD2StatusWin.csproj", "{84FC4912-7AA4-410E-9C4D-BB067CF21BB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PD2StatusWinDev", "PD2StatusWinDev\PD2StatusWinDev.csproj", "{84FC4912-7AA4-410E-9C4D-BB067CF21BB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E4E11952-A5BD-4F61-9E4E-FCF93C160D9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,8 @@ Global
 		{84FC4912-7AA4-410E-9C4D-BB067CF21BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84FC4912-7AA4-410E-9C4D-BB067CF21BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84FC4912-7AA4-410E-9C4D-BB067CF21BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84FC4912-7AA4-410E-9C4D-BB067CF21BB5} = {E4E11952-A5BD-4F61-9E4E-FCF93C160D9A}
 	EndGlobalSection
 EndGlobal
