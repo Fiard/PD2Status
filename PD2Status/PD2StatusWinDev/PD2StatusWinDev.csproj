@@ -14,6 +14,8 @@
     <ItemGroup>
       <ProjectReference Include="..\Nova\Nova.Core\Nova.Core.csproj" />
       <ProjectReference Include="..\Nova\Nova.Kernel\Nova.Kernel.csproj" />
+      <ProjectReference Include="..\Nova\Nova.Wpf.Purgatory\Nova.Wpf.Purgatory.csproj" />
+      <ProjectReference Include="..\Nova\Nova.Wpf\Nova.Wpf.csproj" />
     </ItemGroup>
 
 </Project>
