@@ -61,5 +61,10 @@ namespace PD2StatusWin
                 _log.error($"Dispatcher shutdown failed with exception {ex}");
             }
         }
+
+        private void loaded(object sender, RoutedEventArgs e)
+        {
+            PD2SModel.instance.onLoaded();
+        }
     }
 }

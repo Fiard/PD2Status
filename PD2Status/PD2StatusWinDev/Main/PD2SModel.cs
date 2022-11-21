@@ -18,6 +18,17 @@ public class PD2SModel : DependencyObject
 
     public PD2SConfig config { get => (PD2SConfig) _mtAccessor.GetValue(configProperty); set => _mtAccessor.SetValue(configProperty, value); }
     #endregion
+
+    #region property loaded
+    public static readonly DependencyProperty loadedProperty = DependencyProperty.Register(
+        "loaded",
+        typeof(bool),
+        typeof(PD2SModel),
+        new FrameworkPropertyMetadata(default(bool), FrameworkPropertyMetadataOptions.BindsTwoWayByDefault)
+    );
+
+    public bool loaded { get => (bool) _mtAccessor.GetValue(loadedProperty); set => _mtAccessor.SetValue(loadedProperty, value); }
+    #endregion
     
     public static PD2SModel instance { get; } = new();
     private readonly DependencyPropertyMultiThreadAccessor<PD2SModel> _mtAccessor;
@@ -42,4 +53,8 @@ public class PD2SModel : DependencyObject
         if (config != null) await config.destroy();
     }
 
+    public void onLoaded()
+    {
+        loaded = true;
+    }
 }
