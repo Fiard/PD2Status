@@ -2,6 +2,7 @@ _Image*
 _Interim*
 
 PD2Status/Nova
+PD2Status.sln.DotSettings.user
 
 **/.idea/*
 .idea/contentModel.xml
@@ -26,12 +27,6 @@ _Tools*
 
 .~lock.*
 
-Sharp/StreamLabServices/packages/*
-
-Sharp/Version/BuildVersion.txt
-
-BuildLite/__temp*
-
 Art/*
 bin
 obj
@@ -45,19 +40,7 @@ obj
 .pubxml.user
 .git
 
-
 syntax: regexp
 .*\.pyc
 Python/.*/Common/.*
 BuildLite/.*/config\..*
-
-Unity/StreamtasyArena/*.sln
-Unity/StreamtasyArena/*.csproj
-Unity/StreamtasyArena/Library
-Unity/StreamtasyArena/Logs
-Unity/StreamtasyArena/Temp
-Unity/StreamtasyArena/obj
-Unity/StreamtasyArena/Assets/Nova.Kernel.*
-Unity/StreamtasyArena/Assets/Newtonsoft.Json.*
-Filters/production_*
-
