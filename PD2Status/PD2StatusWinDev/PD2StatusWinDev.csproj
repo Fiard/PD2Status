@@ -11,4 +11,9 @@
         <RootNamespace>PD2StatusWin</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Nova\Nova.Core\Nova.Core.csproj" />
+      <ProjectReference Include="..\Nova\Nova.Kernel\Nova.Kernel.csproj" />
+    </ItemGroup>
+
 </Project>
